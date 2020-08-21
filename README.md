@@ -41,10 +41,13 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 4. Describe the four rules of the 'this' keyword.
 
-  - .call - will invoke the function, and you pass in the arguments one at a time.
-  -  .apply - will invoke the function, have to pass arguments as an array.
-  - .bind - similar to call but does NOT invoke the function, and returns a function 
-  - new - constructs a new object abd 'this' points to the new object that is created
+  - window binding - 'this' default if not assigned to anything. Bad practice.
+  - Implicit binding- when invoked looks to left of the dot, applies to objects w/ methods.
+  - explicit binding -
+    .bind - similar to call but does NOT invoke the function, and returns a function 
+    .call - immediatley invokes function, pass in arguments 1by1
+    .apply - imideatley invokes the function only pass in arguments as array
+
 
 5. Why do we need super() in an extended class?
 
